@@ -1045,5 +1045,3 @@ if __name__=="__main__":
 	if os.path.exists("ok.txt"): pass
 	else: open("ok.txt","a").close()
 	ngentod().menu()
-
-
