@@ -615,17 +615,17 @@ class ngentod:
 					print(f"\n[?] crack dengan kata sandi -> [ {M}{pwek} {p}] \n") #.format(M,pwek)
 					print("   \n [ pilih metode crack - silakan pilih satu²  ]\n")
 					print("[1] Metode b-api (Mode Crack Cepat)")
-					##print('[2]. Metode API+ttl(fast)')
-					print("[2] Metode mbasic (Mode Crack Lambat)")
-					print("[3] Metode free fb (Mode Crack Lambat)")
+					print('[2]. Metode API+ttl(fast)')
+					print("[3] Metode mbasic (Mode Crack Lambat)")
+					print("[4] Metode free fb (Mode Crack Lambat)")
 					xhh(pwek.split(","))
 					break
 		elif njir in("t","T"):
 			print("   \n [ pilih metode crack - silakan pilih satu²  ]\n")
 			print("[1]. Metode API (fast crack)")
-			##print('[2]. Metode API+ttl(fast)')
-			print("[2]. Metode mbasic (slow crack)")
-			print("[3]. Metode free fb  (low crack)")
+			print('[2]. Metode API+ttl(fast)')
+			print("[3]. Metode mbasic (slow crack)")
+			print("[4]. Metode free fb  (low crack)")
 			self.ngontol()
 		else:
 			print("[!] Isi Yang Bener Ajg");self.askk()
