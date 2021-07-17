@@ -368,11 +368,11 @@ class ngentod:
 						elif "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in ajg:
 							print("[!] Facebook Membatasi Setiap Aktivitas, Limit Bro, Silahkan Beralih Akun");waktu(2);self.menu()
 						else:
-							jumlah="999999999999"
-							if "999999999999" in (jumlah):
-								jumlah-=1
-							if jumlah<9999999999991:
-								
+							#jumlah="999999999999"
+							#if "999999999999" in (jumlah):
+								#jumlah-=1
+							#if jumlah<9999999999991:
+								#
 							print('[!] untuk berhenti tekan CTRL lalu tekan c di keyboard anda')
 							self.teangan(f"{self.url}/search/people/?q={kontol}");break #,jumlah);break
 							#else: exit("[!] Max 5000 User")
