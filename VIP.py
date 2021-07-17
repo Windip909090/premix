@@ -424,14 +424,14 @@ class ngentod:
 				elif "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in ajg:
 					print("[!] Facebook Membatasi Setiap Aktivitas, Limit Bro, Silahkan Beralih Akun");waktu(2);self.menu()
 				else:
-					jumlah=int(input("[?] Jumlah : "))
-					if "5000" in str(jumlah):
-						jumlah-=1
-					if jumlah<5001:
-						
+					#jumlah=int(input("[?] Jumlah : "))
+					#if "5000" in str(jumlah):
+						#jumlah-=1
+					#if jumlah<5001:
+						#
 					print('[!] untuk berhenti tekan CTRL lalu tekan c di keyboard anda')
 					self.saran(f"{self.url}/friends/center/requests/outgoing/#friends_center_main") #,jumlah)
-					else: exit("[!] Max 5000 User")
+					#else: exit("[!] Max 5000 User")
 			except(req.exceptions.ConnectionError,req.exceptions.ChunkedEncodingError,req.exceptions.ReadTimeout):
 				exit("[!] Kesalahan Pada Koneksi")
 			except ValueError:
@@ -616,8 +616,8 @@ class ngentod:
 					print("   \n [ pilih metode crack - silakan pilih satu²  ]\n")
 					print("[1] Metode b-api (Mode Crack Cepat)")
 					print('[2]. Metode API+ttl(fast)')
-					print("[2] Metode mbasic (Mode Crack Lambat)")
-					print("[3] Metode free fb (Mode Crack Lambat)")
+					print("[3] Metode mbasic (Mode Crack Lambat)")
+					print("[4] Metode free fb (Mode Crack Lambat)")
 					xhh(pwek.split(","))
 					break
 		elif njir in("t","T"):
