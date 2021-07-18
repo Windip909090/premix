@@ -2,7 +2,7 @@
 # jangan rekod asuuuuuuuuuuuuuu!!!!!!!!!!!!!!!!!!!
 pw_tambahan="""
 
-name123|name1234|name12345|sayang|kontol|memek|bismillah|freefire|garena|102030|786786|bangsat|bagong|cantik|indonesia|name@123|name@12345
+name123|name1234|name12345|sayang|kontol|memek|bismillah|freefire|garena|102030|786786|bangsat|bagong|cantik|indonesia
 
 """.strip().split("|")
 ngntd=((())>(()))+((())>(()))
